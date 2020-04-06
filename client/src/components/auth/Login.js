@@ -1,9 +1,9 @@
-import React, { useEffect, Fragment, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import Spinner from '../layout/Spinner'
 import { connect } from 'react-redux'
 import { login } from '../../actions/auth'
-import { Link, Redirect } from 'react-router-dom'
+import { Redirect } from 'react-router-dom'
 
 const Login = ({ auth, login, setAlert }) => {
 

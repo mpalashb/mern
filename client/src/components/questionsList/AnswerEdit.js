@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
-import { editQuestion } from '../../actions/auestion'
-import Spinner from '../layout/Spinner'
-import { Link, Redirect } from 'react-router-dom'
+import React from 'react'
+// import PropTypes from 'prop-types'
+// import { connect } from 'react-redux'
+// import { editQuestion } from '../../actions/auestion'
+// import Spinner from '../layout/Spinner'
+// import { Link, Redirect } from 'react-router-dom'
 
 const AnswerEdit = ({ match }) => {
 
